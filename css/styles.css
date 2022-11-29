@@ -235,16 +235,14 @@ align-items: baseline;}
 
 /* =============FIRST PAGE============= */
 .section-hero {
-    margin-right: auto;
-    margin-left: auto;
     max-width: 1600px;
     height: 600px;
-    padding-bottom: 200px;
     padding-top: 200px;
-    
-    text-align: center;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/img17.jpg);
+    padding-bottom: 200px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/img17.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #2F303A;
