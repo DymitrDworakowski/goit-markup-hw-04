@@ -263,6 +263,9 @@ align-items: baseline;}
 }
 
 /* ==Button Posluga== */
+.container-button-main{
+    display: block;
+}
 .button-main {
     font-style: normal;
     align-items: center;
@@ -278,6 +281,7 @@ align-items: baseline;}
     letter-spacing: 0.06em;
     padding: 10px 24px;
     border: 0px;
+    margin-left: 480px;
     
     cursor: pointer;
 }
