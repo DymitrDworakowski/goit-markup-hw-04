@@ -67,12 +67,13 @@ header a {
     font-weight: var(--font-weight);
     letter-spacing: 0.02em;
     text-decoration: none;
-    margin-right: 300px;
+    
+    gap: 50px;
 }
 
-.header-list>.nav-link:not(:last-child) {
+/* .header-list>.nav-link:not(:last-child) {
     margin-right: 50px;
-}
+} */
 
 /* ===Logo-Web=== */
 .logo-link {
@@ -113,6 +114,9 @@ header a {
 }
 
 /* ===Nav=== */
+nav{
+margin-right: auto;
+}
 .nav-link {
     font-weight: var(--font-weight);
     color: var(--color-dark);
@@ -125,10 +129,13 @@ header a {
 }
 
 /* ===Contacts Headre/Footer=== */
-.contacts-list>.contacts:not(:last-child) {
+/* .contacts-list>.contacts:not(:last-child) {
     margin-right: 25px;
+} */
+.contacts-list{
+    display: flex;
+    gap:25px;
 }
-
 .contacts {
     font-style: normal;
     font-weight: var(--font-weight);
@@ -150,10 +157,6 @@ header a {
     fill: var(--color-hover);
 }
 /* ===Footer=== */
-/* .footer,
-.adres-blok-footer:not(:last-child) {
-    margin-bottom: 12px;
-} */
 
 .footer {
     background-color: #2F303A;
